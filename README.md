@@ -1,9 +1,5 @@
-# Unity ^2020.1.0 Web3GL Template
-
-## Methods in Browser
-
-![](https://user-images.githubusercontent.com/19412160/149653806-b2c4ca54-1986-4481-bd61-721dbd8a7967.png)
-
+# JokerWalletConnect Test
+ 
 Dispay login modal:
 
 ```javascript
@@ -85,5 +81,3 @@ document.body.appendChild(Object.assign(document.createElement("script"), { type
 ```
 
 Replace `infuraId: "00000000000000000000000000000000"`
-
-![](https://user-images.githubusercontent.com/19412160/149654154-3a9a5066-1c8b-42cd-90f9-204014b56154.png)
