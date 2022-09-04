@@ -6,22 +6,32 @@ document.body.appendChild(
   })
 );
 // load web3modal to connect to wallet
-//document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "./web3/lib/web3modal.js" }));
 document.body.appendChild(
   Object.assign(document.createElement("script"), {
     type: "text/javascript",
-    src: "https://unpkg.com/web3modal@1.9.4/dist/index.js",
+    src: "./web3/lib/web3modal.js",
   })
 );
+// document.body.appendChild(
+//   Object.assign(document.createElement("script"), {
+//     type: "text/javascript",
+//     src: "https://unpkg.com/web3modal@1.9.4/dist/index.js",
+//   })
+// );
 
 // load web3js to create transactions
-//document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "./web3/lib/web3.min.js" }));
 document.body.appendChild(
   Object.assign(document.createElement("script"), {
     type: "text/javascript",
-    src: "https://unpkg.com/web3@1.2.11/dist/web3.min.js",
+    src: "./web3/lib/web3.min.js",
   })
 );
+// document.body.appendChild(
+//   Object.assign(document.createElement("script"), {
+//     type: "text/javascript",
+//     src: "https://unpkg.com/web3@1.2.11/dist/web3.min.js",
+//   })
+// );
 
 // uncomment to enable torus wallet
 // document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://unpkg.com/@toruslabs/torus-embed" }));
@@ -29,7 +39,7 @@ document.body.appendChild(
 document.body.appendChild(
   Object.assign(document.createElement("script"), {
     type: "text/javascript",
-    src: "https://unpkg.com/@walletconnect/web3-provider@1.7.1/dist/umd/index.min.js",
+    src: "https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js",
   })
 );
 
@@ -88,6 +98,7 @@ async function connect() {
         network: "binance", // here
         rpc: {
           97: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+          56: "https://bsc-dataseed.binance.org/",
         },
         qrcode: true,
         qrcodeModalOptions: {
