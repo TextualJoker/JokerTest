@@ -97,7 +97,7 @@ async function connect() {
         infuraId: "0a5f720ee09a409cbbbc4d9bb3d549be",
         network: "binance", // here
         rpc: {
-          97: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+          56: "https://bsc-dataseed.binance.org/",
         },
         qrcode: true,
         qrcodeModalOptions: {
