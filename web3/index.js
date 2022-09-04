@@ -6,32 +6,32 @@ document.body.appendChild(
   })
 );
 // load web3modal to connect to wallet
+//document.body.appendChild(
+//  Object.assign(document.createElement("script"), {
+//    type: "text/javascript",
+//    src: "./web3/lib/web3modal.js",
+//  })
+//);
 document.body.appendChild(
-  Object.assign(document.createElement("script"), {
-    type: "text/javascript",
-    src: "./web3/lib/web3modal.js",
-  })
-);
-// document.body.appendChild(
-//   Object.assign(document.createElement("script"), {
-//     type: "text/javascript",
-//     src: "https://unpkg.com/web3modal@1.9.4/dist/index.js",
-//   })
-// );
+   Object.assign(document.createElement("script"), {
+     type: "text/javascript",
+     src: "https://unpkg.com/web3modal@1.9.9/dist/index.js",
+   })
+ );
 
 // load web3js to create transactions
-document.body.appendChild(
-  Object.assign(document.createElement("script"), {
-    type: "text/javascript",
-    src: "./web3/lib/web3.min.js",
-  })
-);
-// document.body.appendChild(
-//   Object.assign(document.createElement("script"), {
-//     type: "text/javascript",
-//     src: "https://unpkg.com/web3@1.2.11/dist/web3.min.js",
-//   })
-// );
+//document.body.appendChild(
+//  Object.assign(document.createElement("script"), {
+//    type: "text/javascript",
+//    src: "./web3/lib/web3.min.js",
+//  })
+//);
+ document.body.appendChild(
+   Object.assign(document.createElement("script"), {
+     type: "text/javascript",
+     src: "https://unpkg.com/web3@1.7.5/dist/web3.min.js",
+   })
+ );
 
 // uncomment to enable torus wallet
 // document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://unpkg.com/@toruslabs/torus-embed" }));
